@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>DOCS</title>
+  </head>
+  <body>
+  
+  <span>
+        <a routerLink="/">
+            <img src="img/sos.png" alt="logo">
+        </a>
+    </span>
+   <div class="container">
+  
+   <form autocomplete="off">
+
+  <div class="form-group">
+    <label for="eeee">Nome</label>
+    <input placeholder="Nome do Patrimônio"type="text" name="txtNomePatr" value="#{patrimonioBean.nome}" class="form-control" id="txtNomePatr required">
+  </div>
+  
+   <div class="form-group">
+    <label for="eeee">MarcaId</label>
+    <input placeholder="Marca ID" type="number" name="txtMarcaId" class="form-control" id="txtMarcaId" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="eeee">Descrição</label>
+    <input placeholder="Descrição" type="text" name="txtDesc" class="form-control" id="txtDesc">
+  </div>
+  
+   <div class="form-group">
+    <label for="eeee">N° Do Tombo</label>
+    <input placeholder="N° Do Tombo" type="number" name="txtNTombo" class="form-control" id="txttxtNTombo">
+  </div>
+ 
+  <button type="submit" class="btn btn-primary">Salvar</button>
+  <button type="submit" class="btn btn-secondary">Listar</button>
+</form>
+</div>
+  </body>
+</html>
